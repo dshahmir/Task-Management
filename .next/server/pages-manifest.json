@@ -2,8 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/api/tasks": "pages/api/tasks.js",
-  "/create-task": "pages/create-task.js",
-  "/api/tasks/[id]": "pages/api/tasks/[id].js"
+  "/": "pages/index.js"
 }

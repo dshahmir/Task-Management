@@ -50,13 +50,7 @@ const TaskManagementClient: React.FC = () => {
         </Link>
       </Box>
       
-      {/* Only show loading indicator on initial load, not during updates */}
-      {isLoading && tasks.length === 0 && (
-        <Box display="flex" justifyContent="center" my={4}>
-          <CircularProgress />
-        </Box>
-      )}
-      
+      {/*  */}
       <Paper 
         elevation={3} 
         sx={{ 
